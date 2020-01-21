@@ -1,2 +1,2 @@
 # portfolio-V1
-First Iteration of my portfolio - (Insert Languages Here)
+First Iteration of my portfolio - (HTML5 / CSS3 / Bootstrap)
