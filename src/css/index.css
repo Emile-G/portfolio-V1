@@ -1,6 +1,17 @@
+body {
+    font-family: "Roboto";
+}
 .sidenav {
     position: absolute;
     height: 100%;
     width: 10%;
     padding: 2%;
+}
+.black-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
 }
