@@ -47,9 +47,18 @@ ul {
 }
 
 .sidenav-button {
-    color:white;
+    color:#fff;
 }
 
 .sidenav-button:hover {
     color:#21e6c1;
 }
+
+.brand {
+    color:#fff;
+}
+
+.brand:hover {
+    color:#21e6c1;
+}
+
