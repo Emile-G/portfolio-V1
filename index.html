@@ -20,49 +20,57 @@
     </head>
 <body>
     <!-- TOPNAV -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Emile GARDENT</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient">
+        <a class="navbar-brand side" href="#">Emile GARDENT</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#"><span class="green">01 </span>À propos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                    <a class="nav-link text-light" href="#"><span class="green">02 </span>Études</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link text-light" href="#"><span class="green">03 </span>Expériences professionnelles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#"><span class="green">04 </span>Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#"><span class="green">05 </span>Me contacter</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group mr-2" role="group" aria-label="First group">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-outline-success green green-button">Articles</button>
+                        <button type="button" class="btn btn-outline-success dropdown-toggle dropdown-toggle-split green green-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#">Veilles technologiques</a>
+                            <a class="dropdown-item" href="#">Veilles juridiques</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-group mr-2" role="group" aria-label="Second group">
+                  <button type="button" class="btn btn-outline-success green green-button">CV</button>
+                </div>
+              </div>
         </div>
     </nav>
     <!-- END OF TOPNAV -->
     <!-- SIDENAV-->
-    <nav class="sidenav nav flex-column bg-dark">
+    <nav class="sidenav nav flex-column bg-sidenav">
         <div class="f-bot">
-            <li><a href="https://www.linkedin.com/in/emile-gardent-57099a170/" class="text-light"><i class="fab fa-linkedin"></a></i></li>
-            <li><a href="https://github.com/Emile-G" class="text-light"><i class="fab fa-github-square"></a></i></li>
-            <li><a href="https://twitter.com/EmileGardent" class="text-light"><i class="fab fa-twitter-square"></a></i></li>
-            <li><a href="mailto:egardent.pro@gmail.com" class="text-light"><i class="fas fa-envelope-square"></a></i></li>
+            <li><a href="https://www.linkedin.com/in/emile-gardent-57099a170/" class="sidenav-button"><i class="fab fa-linkedin"></a></i></li>
+            <li><a href="https://github.com/Emile-G" class="sidenav-button"><i class="fab fa-github-square"></a></i></li>
+            <li><a href="https://twitter.com/EmileGardent" class="sidenav-button"><i class="fab fa-twitter-square"></a></i></li>
+            <li><a href="mailto:egardent.pro@gmail.com" class="sidenav-button"><i class="fas fa-envelope-square"></a></i></li>
         </div>
     </nav>
     <!-- END OF SIDENAV -->

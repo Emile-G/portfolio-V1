@@ -27,3 +27,29 @@ body {
 ul { 
     list-style-type: none;
 }
+
+.bg-gradient {
+    background: linear-gradient(to right, rgb(0, 0, 70), rgb(26, 145, 179));
+}
+.bg-sidenav {
+    background:rgb(0, 0, 70);
+}
+
+.green {
+    color: #21e6c1;
+}
+.green-button {
+    border-color:#21e6c1;
+}
+.green-button:hover {
+    border-color:#21e6c1;
+    background-color: #21e6c1;
+}
+
+.sidenav-button {
+    color:white;
+}
+
+.sidenav-button:hover {
+    color:#21e6c1;
+}
