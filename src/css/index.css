@@ -2,11 +2,23 @@ body {
     font-family: "Roboto";
 }
 .sidenav {
-    position: absolute;
+    position: fixed;
     height: 100%;
     width: 2%;
     padding: 2%;
+    z-index: 999;
+    margin-top: -5%;
 }
+.navbar {
+    position:fixed;
+    top : 0;
+    z-index: 1000;
+    width: 100%;
+
+}
+.container {
+    margin-top: 5%;
+  }
 .black-overlay {
     position: absolute;
     top: 0px;
@@ -45,6 +57,10 @@ ul {
     border-color:#21e6c1;
     background-color: #21e6c1;
 }
+.green-button:active {
+    background-color:#17ac90;
+    color: white;
+}
 
 .sidenav-button {
     color:#fff;
@@ -62,3 +78,14 @@ ul {
     color:#21e6c1;
 }
 
+.card {
+    margin-top: 5%;
+}
+
+.text-etude {
+    margin-left: 2%;
+}
+
+.text-etude-top {
+    margin-top:2px;
+}
