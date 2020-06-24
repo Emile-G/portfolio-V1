@@ -15,5 +15,5 @@
                'Reply-To: site@egardent.fr' . "\r\n" ;
     
     mail($To, $Objet, $Message, $Headers);
-    header("Location: https://www.egardent.fr/"); 
+    header("Location: https://www.egardent.fr/#me_contacter"); 
     exit();
