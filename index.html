@@ -18,6 +18,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="/src/css/index.css">
     <link rel="stylesheet" href="/src/css/timeline.css">
+    <link rel="stylesheet" href="/src/css/dark-mode.css">
 
     <title>Emile GARDENT - Portfolio</title>
     <link rel="icon" type="image/png" href="/src/images/favicon/favicon.ico">
@@ -74,6 +75,10 @@
                         <a href="mailto:egardent.pro@gmail.com" class="sidenav-button responsive-icons-size"><i
                             class="fas fa-envelope-square"></a></i>
                 </li>
+            </div>
+            <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="darkSwitch">
+                <label class="custom-control-label" for="darkSwitch">🌕</label>
             </div>
         </div>
     </nav>
@@ -182,7 +187,7 @@
                                 (SLAM)</a>
                         </div>
                     </div>
-                    <div class="col-md-8 border">
+                    <div class="col-md-8">
                         <div class="tab-content" id="v-pills-tabContent">
                             <div class="tab-pane fade show active" id="v-pills-lycee" role="tabpanel"
                                 aria-labelledby="v-pills-lycee-tab">
@@ -213,7 +218,7 @@
             <div class="card">
                 <div class="card-header" id="experiences_pro">Expériences professionnelles</div>
                 <div class="row no-gutters">
-                    <div class="col-md-8 border">
+                    <div class="col-md-8">
                         <div class="tab-content" id="v-pills-tabContent">
                             <div class="tab-pane fade show active" id="v-pills-exppro1" role="tabpanel"
                                 aria-labelledby="v-pills-exppro1-tab">
@@ -265,7 +270,7 @@
             <div class="card">
                 <div class="card-header" id="mes_projets">Mes projets</div>
                 <div class="row no-gutters">
-                    <div class="row">
+                    <div class="row no-gutters">
                         <div class="col-md-12">
                             <div class="main-timeline">
                                 <a href="https://github.com/Morbakos/GIE/tree/master" class="timeline">
@@ -396,6 +401,10 @@
             crossorigin="anonymous"></script>
         <script>
         </script>
+
+
+    <!-- You must load 'dark-mode-switch.js' at the foot of the page -->
+    <script src="src/js/dark-mode-switch.min.js"></script>
 </body>
 
 </html>
