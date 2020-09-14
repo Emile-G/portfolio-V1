@@ -27,6 +27,9 @@ body {
   .responsive-icons-size {
     font-size: 40px;
   }
+  .img-cv {
+    display: none;
+  }
 }
 .navbar {
   position: fixed;
@@ -127,6 +130,10 @@ ul {
 
 .img-left {
   margin-left: 5%;
+}
+
+.img-cv {
+  object-fit: cover;
 }
 
 .toolbar-navbar-separatif {
