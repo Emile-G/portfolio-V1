@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="/src/css/index.css">
     <link rel="stylesheet" href="/src/css/timeline.css">
     <link rel="stylesheet" href="/src/css/article.css">
+    <link rel="stylesheet" href="/src/css/dark-mode-article.css"
 
 
     <title>Emile GARDENT - Portfolio</title>
@@ -77,6 +78,10 @@
                             class="fas fa-envelope-square"></a></i>
                 </li>
             </div>
+            <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="darkSwitch">
+                <label class="custom-control-label" for="darkSwitch">🌕</label>
+            </div>
         </div>
     </nav>
     <!-- END OF TOPNAV -->
@@ -107,8 +112,8 @@
                             <div class="cnt-block equal-hight" style="height: 349px;">
                                 <figure><img src="https://surround-bg.com/wp-content/uploads/2018/10/laravel-logo.png"
                                         class="img-responsive" alt=""></figure>
-                                <h3><a>Laravel</a></h3>
-                                <p>Présentation & Création d'un premier projet</p>
+                                <h3><a class="article-name">Laravel</a></h3>
+                                <p class="article-desc">Présentation & Création d'un premier projet</p>
                             </div>
                         </li>
                     </a>
@@ -117,8 +122,8 @@
                             <div class="cnt-block equal-hight" style="height: 349px;">
                                 <figure><img src="https://www.nuxeo.com/assets/wordpress/2016/02/symfony.png"
                                         class="img-responsive" alt=""></figure>
-                                <h3><a>Symfony </a></h3>
-                                <p>Présentation & Création d'un premier projet</p>
+                                <h3><a class="article-name">Symfony </a></h3>
+                                <p class="article-desc">Présentation & Création d'un premier projet</p>
                             </div>
                         </li>
                     </a>
@@ -128,8 +133,8 @@
                                 <figure><img
                                         src="https://secure.meetupstatic.com/photos/event/6/7/7/d/600_459146493.jpeg"
                                         class="img-responsive" alt=""></figure>
-                                <h3><a>Docker </a></h3>
-                                <p>Présentation & Création d'un environement web basique</p>
+                                <h3><a class="article-name">Docker </a></h3>
+                                <p class="article-desc">Présentation & Création d'un environement web basique</p>
                             </div>
                         </li>
                     </a>
@@ -151,9 +156,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <!-- DarkMode -->
+    <script src="/src/js/dark-mode-switch.min.js"></script>
     <!--Custom scripts-->
     <script>
     </script>
+
 </body>
 
 </html>
